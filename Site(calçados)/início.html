@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+<head>
+    <title>Cadastro de Produtos</title>
+</head>
+<body>
+    <h1>Cadastro de Produtos</h1>
+
+    <h2>Adicionar Produto</h2>
+    <label for="nomeP">Nome do Produto:</label>
+    <input type="text" id="nomeP">
+    <label for="quantidade">Quantidade:</label>
+    <input type="number" id="quantidade">
+    <button onclick="adicionarProduto()">Adicionar</button>
+
+    <h2>Remover Produto</h2>
+    <label for="Remover">Nome do Produto:</label>
+    <input type="text" id="Remover">
+    <label for="quantidadeR">Quantidade:</label>
+    <input type="number" id="quantidadeR">
+    <button onclick="removerProduto()">Remover</button>
+
+    <h2>Estoque</h2>
+    <ul id="listaEstoque">
+    </ul>
+
+    <h2>Produtos em Falta</h2>
+    <ul id="listaFalta">
+    </ul>
